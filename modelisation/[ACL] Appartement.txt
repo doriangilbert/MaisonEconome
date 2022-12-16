@@ -1,0 +1,17 @@
+7. Une adresse est d´efinie par un num´ero de maison, un nom de rue, un code postal, une ville de la France
+
+9. Une ville appartient a un et un seul département
+
+11. Une maison est un immeuble contenant au moins 1 appartement
+
+17. Un appartement a un type (T1, T2,...etc), a un degré de sécurité (fort, moyen, faible)
+
+19. Une maison est décrite par une adresse fixe et unique dans une ville de la France, un degré d’isolation, une évaluation de base en terme d’éco-immeuble, un nom
+
+20. Chaque type d’appartement est décrit par un libellé et les types de pièces qu’il doit contenir pour être conventionné
+
+21. Un type de pièce a un libellé
+
+22. Chaque pièce contenue par un appartement est décrite par son libellé et son type de pièce.
+
+23. On tiendra compte du fait que l’appartement peut ne pas avoir toutes les pièces prévues pour son type. Il pourrait également en avoir plus que ce qui est prévu.
