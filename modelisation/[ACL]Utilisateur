@@ -1,5 +1,8 @@
 1. Deux utilisateurs de la base de données, certains avec des droits d’administration (administrateurBD)
+
 2. Un utilisateur peut consulter/modifier son profil
+
 3. Un utilisateur est une personne physique qui a ses accès dans notre système. On voudra connaître la
 date de création du compte et l’état du compte (actif ou inactif);
+
 4. Un identifiant unique est fourni a chaque nouvel utilisateur. Il peut utiliser cet identifiant pour se connecter comme il peut utiliser son adresse mail pour se connecter
