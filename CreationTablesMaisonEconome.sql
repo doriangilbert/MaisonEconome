@@ -16,6 +16,7 @@ CREATE TABLE UTILISATEUR(
    userEmail VARCHAR(100),
    userTag VARCHAR(100),
    userPhone VARCHAR(20),
+   userPassword VARCHAR(100),
    PRIMARY KEY(userId),
    UNIQUE(userEmail),
    UNIQUE(userTag)
@@ -73,14 +74,10 @@ CREATE TABLE SUBSTANCE(
    PRIMARY KEY(substanceId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
-CREATE TABLE FONCTIONNEMENT(
-   fonctionnementDebut DATETIME,
-   PRIMARY KEY(fonctionnementDebut)
-) ENGINE = InnoDB DEFAULT CHARSET = utf8;
-
 CREATE TABLE DEPARTEMENT(
    departementId INT AUTO_INCREMENT,
    departementLibelle VARCHAR(30),
+   departementCode VARCHAR(5),
    regionId INT NOT NULL,
    PRIMARY KEY(departementId),
    FOREIGN KEY(regionId) REFERENCES REGION(regionId)
@@ -205,6 +202,5 @@ CREATE TABLE FonctionnementEquipement(
    fonctionnementDebut DATETIME,
    fonctionnementFin DATETIME,
    PRIMARY KEY(equipementId, fonctionnementDebut),
-   FOREIGN KEY(equipementId) REFERENCES EQUIPEMENT(equipementId),
-   FOREIGN KEY(fonctionnementDebut) REFERENCES FONCTIONNEMENT(fonctionnementDebut)
+   FOREIGN KEY(equipementId) REFERENCES EQUIPEMENT(equipementId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
