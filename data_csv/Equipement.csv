@@ -1,0 +1,101 @@
+equipementId;equipementLibelle;equipementDescription;equipementVideo;typeEquipementId
+1;lampe n°3;;;1
+2;lampe n°2;;;1
+3;lampe n°3;Despcription brève de l'équipement;;1
+4;lampe n°1;;;1
+5;lampe n°1;;;1
+6;lampe n°3;Despcription brève de l'équipement;;1
+7;lampe n°1;Despcription brève de l'équipement;;1
+8;lampe n°3;;;1
+9;lampe n°2;Despcription brève de l'équipement;;1
+10;lampe n°2;Despcription brève de l'équipement;;1
+11;lampe n°3;Despcription brève de l'équipement;;1
+12;lampe n°2;Despcription brève de l'équipement;;1
+13;lampe n°3;;;1
+14;lampe n°1;;;1
+15;lampe n°1;Despcription brève de l'équipement;;1
+16;lampe n°1;Despcription brève de l'équipement;;1
+17;lampe n°2;Despcription brève de l'équipement;;1
+18;lampe n°3;;;1
+19;lampe n°3;;;1
+20;lampe n°3;Despcription brève de l'équipement;;1
+21;lampe de chevet;;;1
+22;lampe de chevet;;;1
+23;lampe de chevet;Despcription brève de l'équipement;;1
+24;lampe de chevet;;;1
+25;lampe de chevet;Despcription brève de l'équipement;;1
+26;lampe de chevet;;;1
+27;lampe de chevet;Despcription brève de l'équipement;;1
+28;lampe de chevet;;;1
+29;lampe de chevet;Despcription brève de l'équipement;;1
+30;lampe de chevet;Despcription brève de l'équipement;;1
+31;lampe fantaisie;Despcription brève de l'équipement;;1
+32;lampe fantaisie;Despcription brève de l'équipement;;1
+33;lampe fantaisie;;;1
+34;lampe fantaisie;;;1
+35;lampe fantaisie;;;1
+36;spot n°3;;;1
+37;spot n°3;;;1
+38;spot n°1;Despcription brève de l'équipement;;1
+39;spot n°2;;;1
+40;spot n°3;Despcription brève de l'équipement;;1
+41;grille pain;;;2
+42;grille pain;;;2
+43;grille pain;Despcription brève de l'équipement;;2
+44;grille pain;Despcription brève de l'équipement;;2
+45;grille pain;Despcription brève de l'équipement;;2
+46;micro-onde;Despcription brève de l'équipement;;2
+47;micro-onde;Despcription brève de l'équipement;;2
+48;micro-onde;;;2
+49;micro-onde;;;2
+50;micro-onde;Despcription brève de l'équipement;;2
+51;fer à repasser;Despcription brève de l'équipement;;2
+52;fer à repasser;;;2
+53;fer à repasser;Despcription brève de l'équipement;;2
+54;fer à repasser;Despcription brève de l'équipement;;2
+55;fer à repasser;Despcription brève de l'équipement;;2
+56;réfrigirateur;;;3
+57;réfrigirateur;;;3
+58;réfrigirateur;;;3
+59;réfrigirateur;;;3
+60;réfrigirateur;Despcription brève de l'équipement;;3
+61;four;Despcription brève de l'équipement;;3
+62;four;;;3
+63;four;Despcription brève de l'équipement;;3
+64;four;;;3
+65;four;;;3
+66;gazinière;;;3
+67;gazinière;;;3
+68;gazinière;;;3
+69;gazinière;Despcription brève de l'équipement;;3
+70;gazinière;Despcription brève de l'équipement;;3
+71;gazinière;Despcription brève de l'équipement;;3
+72;gazinière;Despcription brève de l'équipement;;3
+73;gazinière;;;3
+74;gazinière;;;3
+75;gazinière;;;3
+76;machine à laver;;;3
+77;machine à laver;Despcription brève de l'équipement;;3
+78;machine à laver;Despcription brève de l'équipement;;3
+79;machine à laver;;;3
+80;machine à laver;;;3
+81;télévision;;;4
+82;ordinateur;;;4
+83;ordinateur;Despcription brève de l'équipement;;4
+84;console de jeux;;;4
+85;console de jeux;Despcription brève de l'équipement;;4
+86;cheminée;;;5
+87;cheminée;;;5
+88;cheminée;Despcription brève de l'équipement;;5
+89;cheminée;;;5
+90;cheminée;Despcription brève de l'équipement;;5
+91;radiateur n°3;Despcription brève de l'équipement;;5
+92;radiateur n°1;;;5
+93;radiateur n°2;Despcription brève de l'équipement;;5
+94;radiateur n°3;;;5
+95;radiateur n°2;Despcription brève de l'équipement;;5
+96;radiateur n°1;Despcription brève de l'équipement;;5
+97;radiateur n°1;;;5
+98;radiateur n°1;Despcription brève de l'équipement;;5
+99;radiateur n°2;;;5
+100;radiateur n°2;Despcription brève de l'équipement;;5
