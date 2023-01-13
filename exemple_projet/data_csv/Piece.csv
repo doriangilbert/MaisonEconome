@@ -1,0 +1,51 @@
+pieceId;pieceLibelle;typePieceId
+1;Cuisine;1
+2;Cuisine;1
+3;Cuisine;1
+4;Cuisine;1
+5;Cuisine;1
+6;Cuisine;1
+7;Cuisine;1
+8;Cuisine;1
+9;Cuisine;1
+10;Cuisine;1
+11;Chambre;4
+12;Chambre;4
+13;Chambre;4
+14;Chambre;4
+15;Chambre;4
+16;Chambre;4
+17;Chambre;4
+18;Chambre;4
+19;Chambre;4
+20;Chambre;4
+21;Salle de bain ;8
+22;Salle de bain ;8
+23;Salle de bain ;8
+24;Salle de bain ;8
+25;Salle de bain ;8
+26;Salle de bain ;8
+27;Salle de bain ;8
+28;Salle de bain ;8
+29;Salle de bain ;8
+30;Salon;2
+31;Salon;2
+32;Salon;2
+33;Salon;2
+34;Salon;2
+35;Bureau;6
+36;Bureau;6
+37;Bureau;6
+38;Bureau;6
+39;Bureau;6
+40;Salle à manger;3
+41;Salle à manger;3
+42;Salle à manger;3
+43;Salle à manger;3
+44;Salle à manger;3
+45;Buandrie;5
+46;Buandrie;5
+47;Buandrie;5
+48;Salle de jeux;7
+49;Dressing;7
+50;Dressing;7
