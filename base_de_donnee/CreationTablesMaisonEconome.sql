@@ -84,26 +84,6 @@ CREATE TABLE DEPARTEMENT(
    FOREIGN KEY(regionId) REFERENCES REGION(regionId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
-CREATE TABLE PIECE(
-   pieceId INT AUTO_INCREMENT,
-   pieceLibelle VARCHAR(50),
-   typePieceId INT NOT NULL,
-   PRIMARY KEY(pieceId),
-   FOREIGN KEY(typePieceId) REFERENCES TYPE_PIECE(typePieceId)
-) ENGINE = InnoDB DEFAULT CHARSET = utf8;
-
-CREATE TABLE EQUIPEMENT(
-   equipementId INT AUTO_INCREMENT,
-   equipementLibelle VARCHAR(50),
-   equipementDescription VARCHAR(100),
-   descriptionLieu VARCHAR(50),
-   pieceId INT,
-   typeEquipementId INT NOT NULL,
-   PRIMARY KEY(equipementId),
-   FOREIGN KEY(pieceId) REFERENCES PIECE(pieceId),
-   FOREIGN KEY(typeEquipementId) REFERENCES TYPE_EQUIPEMENT(typeEquipementId)
-) ENGINE = InnoDB DEFAULT CHARSET = utf8;
-
 CREATE TABLE VILLE(
    villeId INT AUTO_INCREMENT,
    villeLibelle VARCHAR(50),
@@ -136,6 +116,28 @@ CREATE TABLE APPARTEMENT(
    FOREIGN KEY(appartementTypeId) REFERENCES TYPE_APPARTEMENT(appartementTypeId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
+CREATE TABLE PIECE(
+   pieceId INT AUTO_INCREMENT,
+   pieceLibelle VARCHAR(50) ,
+   appartementId INT NOT NULL,
+   typePieceId INT NOT NULL,
+   PRIMARY KEY(pieceId),
+   FOREIGN KEY(appartementId) REFERENCES APPARTEMENT(appartementId),
+   FOREIGN KEY(typePieceId) REFERENCES TYPE_PIECE(typePieceId)
+)ENGINE = InnoDB DEFAULT CHARSET = utf8;
+
+CREATE TABLE EQUIPEMENT(
+   equipementId INT AUTO_INCREMENT,
+   equipementLibelle VARCHAR(50),
+   equipementDescription VARCHAR(100),
+   descriptionLieu VARCHAR(50),
+   pieceId INT,
+   typeEquipementId INT NOT NULL,
+   PRIMARY KEY(equipementId),
+   FOREIGN KEY(pieceId) REFERENCES PIECE(pieceId),
+   FOREIGN KEY(typeEquipementId) REFERENCES TYPE_EQUIPEMENT(typeEquipementId)
+) ENGINE = InnoDB DEFAULT CHARSET = utf8;
+
 CREATE TABLE EstProprietaire(
    immeubleId INT,
    dateDebutPossession DATE,
@@ -155,14 +157,6 @@ CREATE TABLE EstLocataire(
    PRIMARY KEY(appartementId, dateDebutLocation),
    FOREIGN KEY(appartementId) REFERENCES APPARTEMENT(appartementId),
    FOREIGN KEY(userId) REFERENCES UTILISATEUR(userId)
-) ENGINE = InnoDB DEFAULT CHARSET = utf8;
-
-CREATE TABLE AppartementContientPiece(
-   appartementId INT,
-   pieceId INT,
-   PRIMARY KEY(appartementId, pieceId),
-   FOREIGN KEY(appartementId) REFERENCES APPARTEMENT(appartementId),
-   FOREIGN KEY(pieceId) REFERENCES PIECE(pieceId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
 CREATE TABLE Consomme(
