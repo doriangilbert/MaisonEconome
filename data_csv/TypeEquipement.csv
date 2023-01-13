@@ -1,18 +1,18 @@
 typeEquipementId;typeEquipementLibelle;equipementVideo
-1;Éclairage;
-2;Réfrigirateur;
+1;Eclairage;
+2;RÃ©frigirateur;
 3;Lave vaiselle;
-4;Machine à laver;
-5;Sèche linge;
+4;Machine Ã  laver;
+5;SÃ¨che linge;
 6;Grille pain;
 7;Micro-onde;
-8;Autre petit éléctroménager;
-9;Autre gros éléctroménager;
+8;Autre petit Ã©lÃ©ctromÃ©nager;
+9;Autre gros Ã©lÃ©ctromÃ©nager;
 10;Radiateur;
-11;Pompe à chaleur;
-12;Poêle à bois;
-13;Gazinière;
-14;Plaque vitrocéramique;
+11;Pompe Ã  chaleur;
+12;PoÃªle Ã  bois;
+13;GaziniÃ¨re;
+14;Plaque vitrocÃ©ramique;
 15;Ordinateur;
 16;Console de jeu;
 17;Autre;
