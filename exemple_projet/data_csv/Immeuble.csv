@@ -1,0 +1,6 @@
+immeubleId;immeubleIsolation;immeubleEvalBase;immeubleNom;immeubleNumero;immeubleRue;immeubleCP;villeId
+1;isolation moyenne;Evaluation;immeuble joli;8;Route Arc-en-Ciel (N64);37170;1
+2;isolation moyenne;Evaluation;immeuble pas mal;7;Route Arc-en-Ciel (N64);37170;2
+3;isolation moyenne;Evaluation;immeuble magnifique;10;Route Arc-en-Ciel (N64);37170;3
+4;isolation moyenne;Evaluation;immeuble moche;54;Route Arc-en-Ciel (N64);37170;4
+5;isolation moyenne;Evaluation;immeuble moyen;12;Route Arc-en-Ciel (N64);37170;5
