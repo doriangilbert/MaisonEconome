@@ -49,6 +49,7 @@ CREATE TABLE SECURITY_APPARTEMENT(
 CREATE TABLE TYPE_EQUIPEMENT(
    typeEquipementId INT AUTO_INCREMENT,
    typeEquipementLibelle VARCHAR(25),
+   equipementVideo VARCHAR(50),
    PRIMARY KEY(typeEquipementId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
@@ -95,9 +96,11 @@ CREATE TABLE EQUIPEMENT(
    equipementId INT AUTO_INCREMENT,
    equipementLibelle VARCHAR(50),
    equipementDescription VARCHAR(100),
-   equipementVideo VARCHAR(200),
+   descriptionLieu VARCHAR(50),
+   pieceId INT,
    typeEquipementId INT NOT NULL,
    PRIMARY KEY(equipementId),
+   FOREIGN KEY(pieceId) REFERENCES PIECE(pieceId),
    FOREIGN KEY(typeEquipementId) REFERENCES TYPE_EQUIPEMENT(typeEquipementId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
@@ -162,15 +165,6 @@ CREATE TABLE AppartementContientPiece(
    FOREIGN KEY(pieceId) REFERENCES PIECE(pieceId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
-CREATE TABLE EquipementEstDansPiece(
-   pieceId INT,
-   equipementId INT,
-   descriptionLieu VARCHAR(30),
-   PRIMARY KEY(pieceId, equipementId),
-   FOREIGN KEY(pieceId) REFERENCES PIECE(pieceId),
-   FOREIGN KEY(equipementId) REFERENCES EQUIPEMENT(equipementId)
-) ENGINE = InnoDB DEFAULT CHARSET = utf8;
-
 CREATE TABLE Consomme(
    equipementId INT,
    ressourceId INT,
@@ -192,6 +186,7 @@ CREATE TABLE Emet(
 CREATE TABLE TypesPiecesConventionnement(
    typePieceId INT,
    appartementTypeId INT,
+   quantiteMin TINYINT,
    PRIMARY KEY(typePieceId, appartementTypeId),
    FOREIGN KEY(typePieceId) REFERENCES TYPE_PIECE(typePieceId),
    FOREIGN KEY(appartementTypeId) REFERENCES TYPE_APPARTEMENT(appartementTypeId)
