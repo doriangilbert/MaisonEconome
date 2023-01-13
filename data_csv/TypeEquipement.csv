@@ -1,6 +1,19 @@
-typeEquipementId;typeEquipementLibelle
-1;Éclairage
-2;Petit Électroménager
-3;Gros Électroménager
-4;Loisir
-5;Chauffage
+typeEquipementId;typeEquipementLibelle;equipementVideo
+1;Éclairage;
+2;Réfrigirateur;
+3;Lave vaiselle;
+4;Machine à laver;
+5;Sèche linge;
+6;Grille pain;
+7;Micro-onde;
+8;Autre petit éléctroménager;
+9;Autre gros éléctroménager;
+10;Radiateur;
+11;Pompe à chaleur;
+12;Poêle à bois;
+13;Gazinière;
+14;Plaque vitrocéramique;
+15;Ordinateur;
+16;Console de jeu;
+17;Autre;
+18;Four;
