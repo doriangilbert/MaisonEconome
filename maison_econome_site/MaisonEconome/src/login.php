@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="UTF-8">
         <title>Login</title>
@@ -26,5 +25,4 @@
             <button type="submit">Login</button>
         </form>
     </body>
-
 </html>
