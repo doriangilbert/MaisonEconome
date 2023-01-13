@@ -1,101 +1,101 @@
 equipementId;equipementLibelle;equipementDescription;descriptionLieu;typeEquipementId;pieceId
-1;lampe n°3;;Cet équipement est dans un lieu bien précis;1;1
-2;lampe n°2;;Cet équipement est dans un lieu bien précis;1;3
-3;lampe n°3;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;5
-4;lampe n°1;;;1;7
-5;lampe n°1;;Cet équipement est dans un lieu bien précis;1;9
-6;lampe n°3;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;2
-7;lampe n°1;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;4
-8;lampe n°3;;Cet équipement est dans un lieu bien précis;1;6
-9;lampe n°2;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;8
-10;lampe n°2;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;10
-11;lampe n°3;Despcription brève de l'équipement;;1;41
-12;lampe n°2;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;42
-13;lampe n°3;;Cet équipement est dans un lieu bien précis;1;43
-14;lampe n°1;;Cet équipement est dans un lieu bien précis;1;44
-15;lampe n°1;Despcription brève de l'équipement;;1;45
-16;lampe n°1;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;46
-17;lampe n°2;Despcription brève de l'équipement;;1;47
-18;lampe n°3;;;1;48
-19;lampe n°3;;;1;49
-20;lampe n°3;Despcription brève de l'équipement;;1;50
+1;lampe nÂ°3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;1
+2;lampe nÂ°2;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;3
+3;lampe nÂ°3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;5
+4;lampe nÂ°1;Description brÃ¨ve de l'Ã©quipement;;1;7
+5;lampe nÂ°1;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;9
+6;lampe nÂ°3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;2
+7;lampe nÂ°1;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;4
+8;lampe nÂ°3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;6
+9;lampe nÂ°2;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;8
+10;lampe nÂ°2;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;10
+11;lampe nÂ°3;Description brÃ¨ve de l'Ã©quipement;;1;41
+12;lampe nÂ°2;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;42
+13;lampe nÂ°3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;43
+14;lampe nÂ°1;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;44
+15;lampe nÂ°1;Description brÃ¨ve de l'Ã©quipement;;1;45
+16;lampe nÂ°1;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;46
+17;lampe nÂ°2;Description brÃ¨ve de l'Ã©quipement;;1;47
+18;lampe nÂ°3;;;1;48
+19;lampe nÂ°3;;;1;49
+20;lampe nÂ°3;Despcription brÃ¨ve de l'Ã©quipement;;1;50
 21;lampe de chevet;;;1;11
-22;lampe de chevet;;Cet équipement est dans un lieu bien précis;1;12
-23;lampe de chevet;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;13
+22;lampe de chevet;;Cet Ã©quipement est dans un lieu bien prÃ¨cis;1;12
+23;lampe de chevet;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;13
 24;lampe de chevet;;;1;14
-25;lampe de chevet;Despcription brève de l'équipement;;1;15
+25;lampe de chevet;Description brÃ¨ve de l'Ã©quipement;;1;15
 26;lampe de chevet;;;1;16
-27;lampe de chevet;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;17
+27;lampe de chevet;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;17
 28;lampe de chevet;;;1;18
-29;lampe de chevet;Despcription brève de l'équipement;;1;19
-30;lampe de chevet;Despcription brève de l'équipement;;1;20
-31;lampe fantaisie;Despcription brève de l'équipement;;1;41
-32;lampe fantaisie;Despcription brève de l'équipement;;1;43
-33;lampe fantaisie;;Cet équipement est dans un lieu bien précis;1;45
-34;lampe fantaisie;;Cet équipement est dans un lieu bien précis;1;25
+29;lampe de chevet;Description brÃ¨ve de l'Ã©quipement;;1;19
+30;lampe de chevet;Description brÃ¨ve de l'Ã©quipement;;1;20
+31;lampe fantaisie;Description brÃ¨ve de l'Ã©quipement;;1;41
+32;lampe fantaisie;Description brÃ¨ve de l'Ã©quipement;;1;43
+33;lampe fantaisie;;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;45
+34;lampe fantaisie;;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;25
 35;lampe fantaisie;;;1;28
-36;spot n°3;;Cet équipement est dans un lieu bien précis;1;40
-37;spot n°3;;Cet équipement est dans un lieu bien précis;1;41
-38;spot n°1;Despcription brève de l'équipement;;1;42
-39;spot n°2;;;1;43
-40;spot n°3;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;1;44
-41;grille pain;;Cet équipement est dans un lieu bien précis;6;40
-42;grille pain;;Cet équipement est dans un lieu bien précis;6;41
-43;grille pain;Despcription brève de l'équipement;;6;42
-44;grille pain;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;6;43
-45;grille pain;Despcription brève de l'équipement;;6;44
-46;micro-onde;Despcription brève de l'équipement;;7;1
-47;micro-onde;Despcription brève de l'équipement;;7;3
+36;spot nï¿½3;;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;40
+37;spot nï¿½3;;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;41
+38;spot nï¿½1;Description brÃ¨ve de l'Ã©quipement;;1;42
+39;spot nï¿½2;;;1;43
+40;spot nï¿½3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;1;44
+41;grille pain;;Cet Ã©quipement est dans un lieu bien prÃ©cis;6;40
+42;grille pain;;Cet Ã©quipement est dans un lieu bien prÃ©cis;6;41
+43;grille pain;Description brÃ¨ve de l'Ã©quipement;;6;42
+44;grille pain;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;6;43
+45;grille pain;Description brÃ¨ve de l'Ã©quipement;;6;44
+46;micro-onde;Description brÃ¨ve de l'Ã©quipement;;7;1
+47;micro-onde;Description brÃ¨ve de l'Ã©quipement;;7;3
 48;micro-onde;;;7;5
-49;micro-onde;;Cet équipement est dans un lieu bien précis;7;7
-50;micro-onde;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;7;9
-51;fer à repasser;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;8;45
-52;fer à repasser;;;8;46
-53;fer à repasser;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;8;47
-54;fer à repasser;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;8;30
-55;fer à repasser;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;8;31
-56;réfrigirateur;;;2;2
-57;réfrigirateur;;;2;4
-58;réfrigirateur;;Cet équipement est dans un lieu bien précis;2;6
-59;réfrigirateur;;;2;8
-60;réfrigirateur;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;2;10
-61;four;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;18;1
-62;four;;Cet équipement est dans un lieu bien précis;18;4
-63;four;Despcription brève de l'équipement;;18;7
-64;four;;Cet équipement est dans un lieu bien précis;18;2
-65;four;;Cet équipement est dans un lieu bien précis;18;10
-66;gazinière;;;13;1
-67;gazinière;;;13;2
-68;gazinière;;;13;3
-69;gazinière;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;13;4
-70;gazinière;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;13;5
-71;gazinière;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;13;6
-72;gazinière;Despcription brève de l'équipement;;13;7
-73;gazinière;;;13;8
-74;gazinière;;Cet équipement est dans un lieu bien précis;13;9
-75;gazinière;;;13;10
-76;machine à laver;;;4;21
-77;machine à laver;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;4;23
-78;machine à laver;Despcription brève de l'équipement;;4;25
-79;machine à laver;;;4;27
-80;machine à laver;;;4;29
-81;télévision;;Cet équipement est dans un lieu bien précis;17;33
-82;ordinateur;;Cet équipement est dans un lieu bien précis;15;35
-83;ordinateur;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;15;38
+49;micro-onde;;Cet Ã©quipement est dans un lieu bien prÃ©cis;7;7
+50;micro-onde;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;7;9
+51;fer ï¿½ repasser;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;8;45
+52;fer ï¿½ repasser;;;8;46
+53;fer ï¿½ repasser;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;8;47
+54;fer ï¿½ repasser;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;8;30
+55;fer ï¿½ repasser;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;8;31
+56;rï¿½frigirateur;;;2;2
+57;rï¿½frigirateur;;;2;4
+58;rï¿½frigirateur;;Cet Ã©quipement est dans un lieu bien prÃ©cis;2;6
+59;rï¿½frigirateur;;;2;8
+60;rï¿½frigirateur;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;2;10
+61;four;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;18;1
+62;four;;Cet Ã©quipement est dans un lieu bien prÃ©cis;18;4
+63;four;Description brÃ¨ve de l'Ã©quipement;;18;7
+64;four;;Cet Ã©quipement est dans un lieu bien prÃ©cis;18;2
+65;four;;Cet Ã©quipement est dans un lieu bien prÃ©cis;18;10
+66;gaziniï¿½re;;;13;1
+67;gaziniï¿½re;;;13;2
+68;gaziniï¿½re;;;13;3
+69;gaziniï¿½re;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;13;4
+70;gaziniï¿½re;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;13;5
+71;gaziniï¿½re;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;13;6
+72;gaziniï¿½re;Description brÃ¨ve de l'Ã©quipement;;13;7
+73;gaziniï¿½re;;;13;8
+74;gaziniï¿½re;;Cet Ã©quipement est dans un lieu bien prÃ©cis;13;9
+75;gaziniï¿½re;;;13;10
+76;machine ï¿½ laver;;;4;21
+77;machine ï¿½ laver;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;4;23
+78;machine ï¿½ laver;Description brÃ¨ve de l'Ã©quipement;;4;25
+79;machine ï¿½ laver;;;4;27
+80;machine ï¿½ laver;;;4;29
+81;tï¿½lï¿½vision;;Cet Ã©quipement est dans un lieu bien prÃ©cis;17;33
+82;ordinateur;;Cet Ã©quipement est dans un lieu bien prÃ©cis;15;35
+83;ordinateur;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;15;38
 84;console de jeux;;;16;48
-85;console de jeux;Despcription brève de l'équipement;;16;48
-86;cheminée;;;17;30
-87;cheminée;;;17;31
-88;cheminée;Despcription brève de l'équipement;;17;32
-89;cheminée;;;17;34
-90;cheminée;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;17;15
-91;radiateur n°3;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;10;22
-92;radiateur n°1;;Cet équipement est dans un lieu bien précis;10;24
-93;radiateur n°2;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;10;26
-94;radiateur n°3;;Cet équipement est dans un lieu bien précis;10;28
-95;radiateur n°2;Despcription brève de l'équipement;;10;36
-96;radiateur n°1;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;10;37
-97;radiateur n°1;;;10;38
-98;radiateur n°1;Despcription brève de l'équipement;Cet équipement est dans un lieu bien précis;10;39
-99;radiateur n°2;;;10;49
-100;radiateur n°2;Despcription brève de l'équipement;;10;50
+85;console de jeux;Description brÃ¨ve de l'Ã©quipement;;16;48
+86;cheminï¿½e;;;17;30
+87;cheminï¿½e;;;17;31
+88;cheminï¿½e;Description brÃ¨ve de l'Ã©quipement;;17;32
+89;cheminï¿½e;;;17;34
+90;cheminï¿½e;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;17;15
+91;radiateur nï¿½3;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;10;22
+92;radiateur nï¿½1;;Cet Ã©quipement est dans un lieu bien prÃ©cis;10;24
+93;radiateur nï¿½2;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;10;26
+94;radiateur nï¿½3;;Cet Ã©quipement est dans un lieu bien prÃ©cis;10;28
+95;radiateur nï¿½2;Description brÃ¨ve de l'Ã©quipement;;10;36
+96;radiateur nï¿½1;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;10;37
+97;radiateur nï¿½1;;;10;38
+98;radiateur nï¿½1;Description brÃ¨ve de l'Ã©quipement;Cet Ã©quipement est dans un lieu bien prÃ©cis;10;39
+99;radiateur nï¿½2;;;10;49
+100;radiateur nï¿½2;Description brÃ¨ve de l'Ã©quipement;;10;50
