@@ -17,7 +17,7 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
         <label>Mot de passe :</label>
         <input type="password" name="password" placeholder="Mot de passe" autocomplete="off" required><br>
             
-        <button type="submit" class="button">Se connecter</button>
+        <button type="submit">Se connecter</button>
     </form>
 </div>
 

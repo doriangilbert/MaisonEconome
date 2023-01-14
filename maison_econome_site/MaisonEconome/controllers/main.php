@@ -37,7 +37,7 @@ switch ($function) {
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";
-        $title = "error404";
+        $title = "Erreur 404";
         $message = "Erreur 404 : la page recherchée n'existe pas.";
 }
 
