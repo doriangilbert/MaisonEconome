@@ -27,36 +27,36 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
     }else{
 
-        $sql = "SELECT * FROM utilisateur WHERE user_name='$username' AND password='$pass'";
+        $sql = "SELECT * FROM utilisateur WHERE userTag='$username' AND userPassword='$pass'";
         $result = mysqli_query($bdd, $sql);
 
         if (mysqli_num_rows($result) === 1) {
 
             $row = mysqli_fetch_assoc($result);
 
-            if ($row['user_name'] === $username && $row['password'] === $pass) {
+            if ($row['userTag'] === $username && $row['userPassword'] === $pass) {
 
                 echo "Logged in!";
-                $_SESSION['user_name'] = $row['user_name'];
-                $_SESSION['name'] = $row['name'];
-                $_SESSION['id'] = $row['id'];
-                header("Location: welcome.php");
+                $_SESSION['userTag'] = $row['userTag'];
+                $_SESSION['isAdmin'] = $row['userIsAdmin'];
+                $_SESSION['id'] = $row['userId'];
+                header("Location: ../index.php?cible=main&fonction=home");
                 exit();
 
             }else{
 
-                header("Location: login.php?error=Mot de passe ou nom d'utilisateur invalide.");
+                header("Location: ../index.php?cible=main&fonction=login&error=Mot de passe ou nom d'utilisateur invalide.");
                 exit();
 
             }
         }else{
 
-            header("Location: login.php?error=Mot de passe ou nom d'utilisateur invalide.");
+            header("Location: ../index.php?cible=main&fonction=login&error=Mot de passe ou nom d'utilisateur invalide.");
             exit();
 
         }
     }
 }else{
-    header("Location: login.php");
+    header("Location: ../index.php?cible=main&fonction=login");
     exit();
 }

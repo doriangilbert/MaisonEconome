@@ -1,9 +1,15 @@
 <?php
 
 if (!isset($_GET['fonction']) || empty($_GET['fonction'])) {
-    $function = "home";
+    $function = "welcome";
 } else {
     $function = $_GET['fonction'];
+}
+
+if (!isset($_GET['error']) || empty($_GET['error'])) {
+    $error = NULL;
+} else {
+    $error = $_GET['error'];
 }
 
 switch ($function) {
@@ -21,6 +27,11 @@ switch ($function) {
     case 'register':
         $vue = "register";
         $title = "S'enregistrer";
+        break;
+
+    case 'home':
+        $vue = "home";
+        $titre = "Menu principal";
         break;
 
     default:

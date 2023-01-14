@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -10,7 +14,10 @@
         <div class="header">
             <a href="index.php?cible=main&fonction=welcome" class="logo">Maison Économe</a>
             <div class="header-right">
-                <a href="acceuil.php" class="header_button">Acceuil</a>
+                <a href="accueil.php" class="header_button">Accueil</a>
                 <a href="mon_compte.php" class="header_button">Mon Compte</a>
+                <?php if(isset($_SESSION['id']) && isset($_SESSION['userTag'])) {
+                    include('models/header_deconnexion.php');
+                } ?>
             </div>
         </div>

@@ -24,6 +24,64 @@ body{
     background-color: #1d4a20;
 }
 
+.form{
+    display: flex;
+    flex-direction: column;
+
+    margin: 2%;
+    padding: 2%;
+    min-width: 50%;
+}
+
+.form>button , .form>input, .form>label .form>.error{
+    font-family: sans-serif;
+    width: 100%;
+    height: 30px;
+}
+
+.form>button , .form>input{
+    border: 1px solid #212121;
+    border-radius: 25px;
+    padding: 0 25px;
+    height: 40px;
+}
+
+.form>label{
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: #e9e9e9;
+    margin-top: 10px;
+}
+
+.form>input{
+    margin-bottom: 20px;
+    background-color: #39393993;
+    color: #e9e9e9;
+    width: auto;
+}
+
+.form>button{
+    width: auto;
+    font-size: larger;
+    background: #484848;
+    color: #e9e9e9;
+    text-decoration: none;
+}
+
+.form>button:hover{
+    background: #212121;
+    box-shadow: 0px 0px 10px 5px #393939;
+}
+
+.form>button:active{
+    background: #484848;
+    box-shadow: 0px 0px 10px 5px #212121;
+}
+
+.error{
+    text-decoration: underline;
+}
+
 .bloc_bienvenu{
     min-width: 100%;
     min-height: 100%;
@@ -54,6 +112,7 @@ body{
     background-color: rgba(0,0,0, 0.4);
 
     width: 50%;
+    min-width: 360px;
 }
 
 .login-box>.register{
@@ -83,9 +142,16 @@ body{
     box-shadow: 0px 0px 10px 5px #212121;
 }
 
+@media screen and (max-width: 500px) {
+    .login-box{
+        width: 360px;
+    }
+}
+
 /*header*/
 
 .header{
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     width: 100%;
@@ -101,10 +167,15 @@ body{
     color: #e9e9e9;
     text-align: center;
     padding: 12px;
+    margin-left: 5px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+}
+
+.header-right a:hover{
+    background-color: #173a19;
 }
 
 .header a.logo {
@@ -112,6 +183,7 @@ body{
 }
 
 .header-right {
+    margin-right: 5px;
     float: right;
 }
 
@@ -121,8 +193,22 @@ body{
         display: block;
         text-align: left;
     }
+
     .header-right {
         float: none;
+        margin: 2px;
         background-color: #173a19;
+        padding-top: 1px;
+        padding-bottom: 1px;
+    }
+
+    .header-right a {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 5px;
+    }
+
+    .header-right a:hover {
+        background-color: #1d4a20;
     }
 }
