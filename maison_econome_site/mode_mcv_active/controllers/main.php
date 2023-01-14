@@ -7,20 +7,22 @@ if (!isset($_GET['fonction']) || empty($_GET['fonction'])) {
 }
 
 switch ($function) {
-    
-    case 'home':
-        //affichage de l'accueil
-        $vue = "home";
+
+    case 'welcome':
+        $vue = "welcome";
         $title = "Accueil";
         break;
-        
-    case 'parametrage':
-    // Paramétrage de l'application
-        $vue = "parametrage";
-        $title = "Paramétrage du site";
-        $entete = "Paramétrage des entités";
+
+    case 'login':
+        $vue = "login";
+        $title = "Connexion";
         break;
-        
+
+    case 'register':
+        $vue = "register";
+        $title = "S'enregistrer";
+        break;
+
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "erreur404";
