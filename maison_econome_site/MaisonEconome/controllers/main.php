@@ -29,14 +29,14 @@ switch ($function) {
         $title = "S'enregistrer";
         break;
 
-    case 'home':
-        $vue = "home";
-        $titre = "Menu principal";
+    case 'profil':
+        $vue = "profil";
+        $titre = "Profil";
         break;
 
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
-        $vue = "erreur404";
+        $vue = "error404";
         $title = "error404";
         $message = "Erreur 404 : la page recherchée n'existe pas.";
 }

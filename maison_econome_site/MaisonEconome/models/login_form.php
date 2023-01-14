@@ -37,10 +37,18 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
             if ($row['userTag'] === $username && $row['userPassword'] === $pass) {
 
                 echo "Logged in!";
+                $_SESSION['id'] = $row['userId'];
                 $_SESSION['userTag'] = $row['userTag'];
                 $_SESSION['isAdmin'] = $row['userIsAdmin'];
-                $_SESSION['id'] = $row['userId'];
-                header("Location: ../index.php?cible=main&fonction=home");
+                $_SESSION['userDate'] = $row['userDate'];
+                $_SESSION['userState'] = $row['userState'];
+                $_SESSION['userFirstname'] = $row['userFirstname'];
+                $_SESSION['userSurname'] = $row['userSurname'];
+                $_SESSION['userBirth'] = $row['userId'];
+                $_SESSION['userGender'] = $row['userGender'];
+                $_SESSION['userEmail'] = $row['userEmail'];
+                $_SESSION['userPhone'] = $row['userPhone'];
+                header("Location: ../index.php?cible=main&fonction=profil");
                 exit();
 
             }else{
