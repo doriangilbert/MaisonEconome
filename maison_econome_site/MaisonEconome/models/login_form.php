@@ -17,12 +17,12 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
     if (empty($username)) {
 
-        header("Location: login.php?error=Un nom d'utilisateur est requis.");
+        header("Location: ../index.php?cible=main&fonction=login&error=Un nom d'utilisateur est requis.");
         exit();
 
     }else if(empty($pass)){
 
-        header("Location: login.php?error=Un mot de passe est requis.");
+        header("Location: ../index.php?cible=main&fonction=login&error=Un mot de passe est requis.");
         exit();
 
     }else{

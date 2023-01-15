@@ -8,6 +8,11 @@ session_start();
         <meta charset="UTF-8">
         <title><?php echo $title; ?></title>
         <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/style_profil.css">
+        <link rel="stylesheet" href="./style/style_login.css">
+        <link rel="stylesheet" href="./style/style_register.css">
+        <link rel="stylesheet" href="./style/style_header.css">
+        <link rel="stylesheet" href="./style/style_form.css">
     </head>
     <body>
 
@@ -21,3 +26,4 @@ session_start();
                 } ?>
             </div>
         </div>
+        <div class="body">

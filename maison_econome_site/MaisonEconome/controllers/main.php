@@ -31,7 +31,7 @@ switch ($function) {
 
     case 'profil':
         $vue = "profil";
-        $titre = "Profil";
+        $title = "Profil";
         break;
 
     default:
