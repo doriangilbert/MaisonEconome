@@ -1,4 +1,3 @@
-userId;userDate;userState;userIsAdmin;userFirstanme;userSurname;userBirth;userGender;userEmail;userTag;userPhone;userPassword
 1;2023-01-13;1;0;Jean;Dupond;1971-06-30;0;Jean.Dupond@reef.tv;Jean.Dupond;6666666666;Dupond.Jean6
 2;2023-01-14;1;0;Paul;Dupont;1968-03-18;0;Paul.Dupont@reef.tv;Paul.Dupont;6666666666;Dupont.Paul6
 3;2023-01-01;1;1;René;Dupont;1970-04-05;0;Rene.Dupont@reef.tv;Rene.Dupont;6666666666;Dupont.Rene6
