@@ -48,7 +48,7 @@ CREATE TABLE SECURITY_APPARTEMENT(
 
 CREATE TABLE TYPE_EQUIPEMENT(
    typeEquipementId INT AUTO_INCREMENT,
-   typeEquipementLibelle VARCHAR(25),
+   typeEquipementLibelle VARCHAR(50),
    equipementVideo VARCHAR(50),
    PRIMARY KEY(typeEquipementId)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;

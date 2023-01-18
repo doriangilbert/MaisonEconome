@@ -1,0 +1,3 @@
+substanceId;substanceLibelle;substanceDescritpion;substanceValMin;substanceValMax;substanceValCritique;substanceValIdeale
+1;CO;Monoxyde de carbone;0;100;91;31
+2;CO2;Dioxyde de carbone;0;100;90;6

@@ -1,0 +1,5 @@
+ressourceId;ressourceLibelle;ressourceDescritpion;ressourceValMin;ressourceValMax;ressourceValCritique;ressourceValIdeale
+1;électricité;C'est la ressource électricité;0;100;90;32
+2;Gaz;C'est la ressource Gaz;0;100;94;12
+3;Eau;C'est la ressource Eau;0;100;93;18
+4;Bois;C'est la ressource Bois;0;100;95;13
