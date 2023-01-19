@@ -3,11 +3,11 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
 ?>
 
 <h1>
-    Bienvenu <?php echo $_SESSION['userFirstname']; ?> !
+    Bienvenue <?php echo $_SESSION['userFirstname']; ?> !
 </h1>
 <div class="login-box">
     <a class="register" href="index.php?cible=main&fonction=stats">Accéder a vos statistiques</a>
-    <a class="register" href="index.php?cible=main&fonction=info-profile">Informations de votre profil</a>
+    <a class="register" href="index.php?cible=main&fonction=info_profil">Informations de votre profil</a>
     
     <?php 
     if($_SESSION['isAdmin'] == 1){
