@@ -2,7 +2,7 @@
 if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
 ?>
 
-<h1>
+<h1 class="titre">
     Bienvenue <?php echo $_SESSION['userFirstname']; ?> !
 </h1>
 <div class="login-box">

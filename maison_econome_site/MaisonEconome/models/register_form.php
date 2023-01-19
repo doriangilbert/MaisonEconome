@@ -77,7 +77,12 @@ if (
         header("Location: ../index.php?cible=main&fonction=register&error=Un mot de passe est requis.");
         exit();
 
-    }else{
+    }else if(date('Y') - date("Y", strtotime($userBdate)) < 18 ){
+    
+        header("Location: ../index.php?cible=main&fonction=register&error=Vous devez être majeur pour pouvoir vous inscrire.");
+        exit();
+
+    }else
 
         $username = $userSurname. '.' .$userFirstname;
 
@@ -95,4 +100,4 @@ if (
             exit();
         }
     }
-}
+
