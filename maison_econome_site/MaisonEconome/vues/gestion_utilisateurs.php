@@ -1,10 +1,17 @@
+<?php 
+if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
+  if($_SESSION['isAdmin'] == 1){
+?>
+
 <head>
     <style>
         /* Style à reporter dans le CSS */
-        table, th, td {
+        table,
+        th,
+        td {
             border: 1px solid white;
             border-collapse: collapse;
-            padding: 5px;
+            padding: 10px;
         }
 
         table {
@@ -35,7 +42,7 @@ $result = mysqli_query($bdd, "SELECT * FROM utilisateur ORDER BY userId");
 echo "<table>";
 echo "<tr><th>Numéro</th><th>Date d'inscription</th><th>Statut</th><th>Administrateur ?</th><th>Nom</th><th>Prénom</th><th>Date de naissance</th><th>Sexe</th><th>Email</th><th>Login</th><th>Téléphone</th></tr>";
 
-while ($row = mysqli_fetch_array($result)) {
+while ($row = mysqli_fetch_assoc($result)) {
     $userId = $row['userId'];
     $userDate = $row['userDate'];
     $userState = $row['userState'];
@@ -73,21 +80,33 @@ while ($row = mysqli_fetch_array($result)) {
     <td>" . $userGender_Text . "</td>
     <td>" . $userEmail . "</td>
     <td>" . $userTag . "</td>
-    <td>".$userPhone."</td>
-    <td><a class='button' href='index.php?cible=main&fonction=gestion_utilisateurs'>Supprimer l'utilisateur</a></td>";
+    <td>" . $userPhone . "</td>
+    <td>
+    <form action='./models/user_delete.php' method='post'>
+    <input type='hidden' name='userId' value='".$userId."'></input>
+    <input type='submit' class='button' value='Supprimer utilisateur' name='supprimer_utilisateur'></input>
+    </form>
+    </td>";
     if ($userIsAdmin == 1) {
         echo "<td><input type='checkbox' id='admincheck' name='admincheck' checked><label for='admincheck'>Admin</label></td>";
-    }
-    else {
+    } else {
         echo "<td><input type='checkbox' id='admincheck' name='admincheck'><label for='admincheck'>Admin</label></td>";
     }
     echo "</tr>";
-
 }
 
 echo "</table>";
 ?>
 
 <div class="login-box">
-    <a class="register" href="index.php?cible=main&fonction=profil">Retour au profil</a>
+    <a class="register" href="index.php?cible=main&fonction=gestion">Retour à la gestion</a>
 </div>
+
+<?php
+  }else{
+        header("Location: index.php?cible=main&fonction=profil");
+  }
+}else{
+    header("Location: index.php?cible=main&fonction=login");
+}
+?>
