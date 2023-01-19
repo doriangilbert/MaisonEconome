@@ -145,7 +145,7 @@ CREATE TABLE EstProprietaire(
    userId INT NOT NULL,
    PRIMARY KEY(immeubleId, dateDebutPossession),
    FOREIGN KEY(immeubleId) REFERENCES IMMEUBLE(immeubleId),
-   FOREIGN KEY(userId) REFERENCES UTILISATEUR(userId)
+   FOREIGN KEY(userId) REFERENCES UTILISATEUR(userId) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
 CREATE TABLE EstLocataire(
@@ -156,7 +156,7 @@ CREATE TABLE EstLocataire(
    userId INT NOT NULL,
    PRIMARY KEY(appartementId, dateDebutLocation),
    FOREIGN KEY(appartementId) REFERENCES APPARTEMENT(appartementId),
-   FOREIGN KEY(userId) REFERENCES UTILISATEUR(userId)
+   FOREIGN KEY(userId) REFERENCES UTILISATEUR(userId)ON DELETE CASCADE
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
 CREATE TABLE Consomme(
@@ -165,7 +165,7 @@ CREATE TABLE Consomme(
    consommationHoraire DECIMAL(15, 3),
    PRIMARY KEY(equipementId, ressourceId),
    FOREIGN KEY(equipementId) REFERENCES EQUIPEMENT(equipementId),
-   FOREIGN KEY(ressourceId) REFERENCES RESSOURCE(ressourceId)
+   FOREIGN KEY(ressourceId) REFERENCES RESSOURCE(ressourceId) 
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8;
 
 CREATE TABLE Emet(
