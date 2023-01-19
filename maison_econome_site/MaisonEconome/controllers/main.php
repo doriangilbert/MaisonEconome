@@ -34,6 +34,26 @@ switch ($function) {
         $title = "Profil";
         break;
 
+    case 'gestion':
+        $vue = "gestion";
+        $title = "Gestion du site";
+        break;
+
+    case 'gestionutilisateurs':
+        $vue = "gestionutilisateurs";
+        $title = "Gestion des utilisateurs";
+        break;
+    
+    case 'gestionmaisons':
+        $vue = "gestionmaisons";
+        $title = "Gestion des maisons";
+        break;
+
+    case 'gestionressourcessubstances':
+        $vue = "gestionressourcessubstances";
+        $title = "Gestion des ressources et substances";
+        break;
+
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";
