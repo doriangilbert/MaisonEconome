@@ -6,9 +6,9 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
     Gestion du site
 </h1>
 <div class="login-box">
-    <a class="register" href="index.php?cible=main&fonction=gestionutilisateurs">Gestion des utilisateurs</a>
-    <a class="register" href="index.php?cible=main&fonction=gestionmaisons">Gestion des maisons</a>
-    <a class="register" href="index.php?cible=main&fonction=gestionressourcessubstances">Gestion des ressources et substances</a>
+    <a class="register" href="index.php?cible=main&fonction=gestion_utilisateurs">Gestion des utilisateurs</a>
+    <a class="register" href="index.php?cible=main&fonction=gestion_maisons">Gestion des maisons</a>
+    <a class="register" href="index.php?cible=main&fonction=gestion_ressources_substances">Gestion des ressources et substances</a>
     <a class="register" href="index.php?cible=main&fonction=profil">Retour au profil</a>
 </div>
 

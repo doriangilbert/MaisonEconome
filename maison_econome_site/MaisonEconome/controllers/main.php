@@ -39,18 +39,18 @@ switch ($function) {
         $title = "Gestion du site";
         break;
 
-    case 'gestionutilisateurs':
-        $vue = "gestionutilisateurs";
+    case 'gestion_utilisateurs':
+        $vue = "gestion_utilisateurs";
         $title = "Gestion des utilisateurs";
         break;
     
-    case 'gestionmaisons':
-        $vue = "gestionmaisons";
+    case 'gestion_maisons':
+        $vue = "gestion_maisons";
         $title = "Gestion des maisons";
         break;
 
-    case 'gestionressourcessubstances':
-        $vue = "gestionressourcessubstances";
+    case 'gestion_ressources_substances':
+        $vue = "gestion_ressources_substances";
         $title = "Gestion des ressources et substances";
         break;
 
