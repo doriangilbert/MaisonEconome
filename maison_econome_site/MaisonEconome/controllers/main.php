@@ -34,6 +34,11 @@ switch ($function) {
         $title = "Profil";
         break;
 
+    case 'info_profil':
+        $vue = "info_profil";
+        $title = "Information profil";
+        break;
+
     case 'gestion':
         $vue = "gestion";
         $title = "Gestion du site";
