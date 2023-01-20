@@ -18,6 +18,11 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
             margin: 2%;
         }
 
+        th,
+        td {
+            text-align: center;
+        }
+
         .button {
             background-color: #484848;
             color: #e9e9e9;
@@ -30,8 +35,9 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
             border: none;
             border-radius: 10px;
 
-            padding: 2%;
-            margin: 2%;
+            padding: 10px 20px;
+            margin: 4px 2px;
+            cursor: pointer;
         }
     </style>
 </head>
