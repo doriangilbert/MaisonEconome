@@ -62,7 +62,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     $villeLibelle = $row['villeLibelle'];
     $immeubleEvalBase = $row['immeubleEvalBase'];
     $immeubleIsolation = $row['immeubleIsolation'];
-    $adresse = $immeubleNumero . " " . $immeubleRue . ", " . $immeubleCP . " " . $villeLibelle;
+    $adresse = $immeubleNumero." ".$immeubleRue.", ".$immeubleCP.", ".$villeLibelle;
     echo "<tr>
     <td>" . $immeubleId . "</td>
     <td>" . $immeubleNom . "</td>
