@@ -41,6 +41,11 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
         }
     </style>
 </head>
+
+<h1>
+    Gestion des utilisateurs
+</h1>
+
 <?php
 include('models/connexion.php');
 $result = mysqli_query($bdd, "SELECT * FROM utilisateur ORDER BY userId");
@@ -93,6 +98,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     <input type='submit' class='button' value='Supprimer utilisateur' name='supprimer_utilisateur'></input>
     </form>
     </td>";
+    /* A PROGRAMMER */
     if ($userIsAdmin == 1) {
         echo "<td><input type='checkbox' id='admincheck' name='admincheck' checked><label for='admincheck'>Admin</label></td>";
     } else {
