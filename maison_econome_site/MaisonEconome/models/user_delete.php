@@ -9,10 +9,7 @@ if (isset($_POST['userId'])) {
     }
 
     $userId = validate($_POST['userId']);
-    var_dump($userId);
-    print_r($userId);
     $sql = "DELETE FROM utilisateur WHERE userId='$userId'";
-    print_r($sql);
     $is_sent = mysqli_query($bdd, $sql);
     if($is_sent){
 
