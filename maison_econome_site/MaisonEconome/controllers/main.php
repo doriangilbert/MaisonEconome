@@ -29,9 +29,9 @@ switch ($function) {
         $title = "S'enregistrer";
         break;
 
-    case 'profil':
-        $vue = "profil";
-        $title = "Profil";
+    case 'acceuil':
+        $vue = "acceuil";
+        $title = "Acceuil";
         break;
 
     case 'info_profil':
@@ -63,7 +63,7 @@ switch ($function) {
         $vue = "gestion_substances";
         $title = "Gestion des substances";
         break;
-    
+
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";

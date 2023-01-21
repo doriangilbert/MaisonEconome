@@ -32,12 +32,17 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
         <label>Numéro de téléphone :</label>
         <input type="text" name="userPhone" placeholder="Numéro de téléphone" autocomplete="off" value="<?php echo($_SESSION['userPhone']); ?>" pattern="\d{10,10}" required><br>
 
+        <label>Nom de login :</label>
+        <input readonly type="text" name="userTag" placeholder="Nom de login" autocomplete="off" value="<?php echo($_SESSION['userTag']); ?>" required><br>
+
         <button type="submit">Mettre a jour vos informations</button>
     </form>
 </div>
-
+<div class="div-block">
+    <a class="a-button" href="index.php?cible=main&fonction=acceuil">Retour a l'acceuil</a>
+</div>
 <?php
 }else{
-    header("Location: index.php?cible=main&fonction=home");
+    header("Location: index.php?cible=main&fonction=welcome");
 }
 ?>

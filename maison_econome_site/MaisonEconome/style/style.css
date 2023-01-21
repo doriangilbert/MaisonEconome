@@ -63,7 +63,7 @@ body{
 }
 
 .div-block>.a-button{
-    color: #212121;
+    color: #e9e9e9;
     border-radius: 15px;
     text-decoration: none;
 
@@ -86,7 +86,7 @@ body{
 }
 
 .div-block>.a-button:active{
-    color: #636363;
+    color: #484848;
 }
 
 
