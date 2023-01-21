@@ -31,6 +31,12 @@ while ($row = mysqli_fetch_assoc($result)) {
     <td>" . $immeubleEvalBase . "</td>
     <td>" . $immeubleIsolation . "</td>
     <td>
+    <form action='index.php?cible=main&fonction=gestion_appartements' method='post'>
+    <input type='hidden' name='immeubleId' value='".$immeubleId."'></input>
+    <input type='submit' class='gestion_button' value='Gérer appartements' name='gerer_appartements'></input>
+    </form>
+    </td>
+    <td>
     <form action='./models/maison_delete.php' method='post'>
     <input type='hidden' name='immeubleId' value='".$immeubleId."'></input>
     <input type='submit' class='gestion_button' value='Supprimer maison' name='supprimer_maison'></input>
