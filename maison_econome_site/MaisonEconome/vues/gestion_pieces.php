@@ -15,7 +15,7 @@ if (isset($_POST['appartementId'])) {
 
     $appartementId = validate($_POST['appartementId']);
 
-    echo "<h1>Gestion des pieces pour l'appartement " . $appartementId . "</h1>";
+    echo "<h1>Gestion des pièces pour l'appartement " . $appartementId . "</h1>";
 
     $result = mysqli_query($bdd, "SELECT pieceId, pieceLibelle, typePieceLibelle FROM piece NATURAL JOIN type_piece WHERE appartementId=".$appartementId." ORDER BY pieceId");
 
@@ -31,7 +31,7 @@ if (isset($_POST['appartementId'])) {
         <td>" . $pieceLibelle . "</td>
         <td>" . $typePieceLibelle . "</td>
         <td>
-        <form action='./vues/gestion_equipements.php' method='post'>
+        <form action='index.php?cible=main&fonction=gestion_equipements' method='post'>
         <input type='hidden' name='pieceId' value='".$pieceId."'></input>
         <input type='submit' class='gestion_button' value='Gérer équipements' name='gerer_equipements'></input>
         </form>
