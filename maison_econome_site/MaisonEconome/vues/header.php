@@ -13,6 +13,7 @@ session_start();
         <link rel="stylesheet" href="./style/style_register.css">
         <link rel="stylesheet" href="./style/style_header.css">
         <link rel="stylesheet" href="./style/style_form.css">
+        <link rel="stylesheet" href="./style/style_gestion.css">
     </head>
     <body>
 
