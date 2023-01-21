@@ -31,7 +31,7 @@ if (isset($_POST['immeubleId'])) {
         <td>" . $appartementTypeLibelle . "</td>
         <td>" . $appartementSecurityLibelle . "</td>
         <td>
-        <form action='./vues/gestion_pieces.php' method='post'>
+        <form action='index.php?cible=main&fonction=gestion_pieces' method='post'>
         <input type='hidden' name='appartementId' value='".$appartementId."'></input>
         <input type='submit' class='gestion_button' value='Gérer pièces' name='gerer_pieces'></input>
         </form>

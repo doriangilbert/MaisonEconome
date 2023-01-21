@@ -68,6 +68,11 @@ switch ($function) {
         $vue = "gestion_appartements";
         $title = "Gestion des appartements";
         break;
+    
+    case 'gestion_pieces':
+        $vue = "gestion_pieces";
+        $title = "Gestion des pieces";
+        break;
 
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
