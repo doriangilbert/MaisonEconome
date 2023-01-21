@@ -54,11 +54,16 @@ switch ($function) {
         $title = "Gestion des maisons";
         break;
 
-    case 'gestion_ressources_substances':
-        $vue = "gestion_ressources_substances";
-        $title = "Gestion des ressources et substances";
+    case 'gestion_ressources':
+        $vue = "gestion_ressources";
+        $title = "Gestion des ressources";
         break;
-
+    
+    case 'gestion_substances':
+        $vue = "gestion_substances";
+        $title = "Gestion des substances";
+        break;
+    
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";
