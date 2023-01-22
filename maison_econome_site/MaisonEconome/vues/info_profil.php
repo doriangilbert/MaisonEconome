@@ -39,7 +39,7 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
     </form>
 </div>
 <div class="div-block">
-    <a class="a-button" href="index.php?cible=main&fonction=acceuil">Retour a l'acceuil</a>
+    <a class="a-button" href="index.php?cible=main&fonction=accueil">Retour a l'accueil</a>
 </div>
 <?php
 }else{

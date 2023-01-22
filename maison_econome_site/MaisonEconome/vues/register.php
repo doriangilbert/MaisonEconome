@@ -39,7 +39,7 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
     </form>
 </div>
 <div class="div-block">
-    <a class="a-button" href="index.php?cible=main&fonction=register">Se connecter</a>
+    <a class="a-button" href="index.php?cible=main&fonction=login">Se connecter</a>
 </div>
 
 <?php

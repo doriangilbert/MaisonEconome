@@ -16,7 +16,7 @@ switch ($function) {
 
     case 'welcome':
         $vue = "welcome";
-        $title = "Accueil";
+        $title = "Bienvenue";
         break;
 
     case 'login':
@@ -29,9 +29,9 @@ switch ($function) {
         $title = "S'enregistrer";
         break;
 
-    case 'acceuil':
-        $vue = "acceuil";
-        $title = "Acceuil";
+    case 'accueil':
+        $vue = "accueil";
+        $title = "Accueil";
         break;
 
     case 'info_profil':

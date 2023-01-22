@@ -72,7 +72,7 @@ if (
 
     }else{
 
-        $username = $userSurname. '.' .$userFirstname;
+        $username = strtolower($userFirstname). '.' .strtolower($userSurname);
 
         $session_tag = $_SESSION['userTag'];
         $session_firstname = $_SESSION['userFirstname'];

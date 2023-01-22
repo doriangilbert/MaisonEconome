@@ -48,7 +48,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
                 $_SESSION['userGender'] = $row['userGender'];
                 $_SESSION['userEmail'] = $row['userEmail'];
                 $_SESSION['userPhone'] = $row['userPhone'];
-                header("Location: ../index.php?cible=main&fonction=acceuil");
+                header("Location: ../index.php?cible=main&fonction=accueil");
                 exit();
 
             }else{

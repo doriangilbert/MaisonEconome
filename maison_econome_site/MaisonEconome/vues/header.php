@@ -20,7 +20,7 @@ session_start();
         <div class="header">
             <a href="./index.php?cible=main&fonction=welcome" class="logo">Maison Économe</a>
             <div class="header-right">
-                <a href="index.php?cible=main&fonction=acceuil" class="header_button">Accueil</a>
+                <a href="index.php?cible=main&fonction=accueil" class="header_button">Accueil</a>
                 <a href="index.php?cible=main&fonction=info_profil" class="header_button">Mon Compte</a>
                 <?php if(isset($_SESSION['id']) && isset($_SESSION['userTag'])) {
                     include('models/header_deconnexion.php');
