@@ -84,7 +84,7 @@ if (
 
     }else
 
-        $username = $userFirstname. '.' .$userSurname;
+        $username = strtolower($userFirstname). '.' .strtolower($userSurname);
 
         $sql = "INSERT INTO utilisateur (userDate, userState, userIsAdmin, userFirstname, userSurname, userBirth, userGender, userEmail, userTag, userPhone, userPassword)
                 VALUES (CURRENT_DATE, 1, 0, '$userFirstname', '$userSurname', '$userBdate', '$userGenre', '$userEmail', '$username', '$userPhone', '$userPass')";
