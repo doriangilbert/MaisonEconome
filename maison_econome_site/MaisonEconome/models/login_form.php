@@ -27,14 +27,14 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 
     }else{
 
-        $sql = "SELECT * FROM utilisateur WHERE userTag='$username' AND userPassword='$pass'";
+        $sql = "SELECT * FROM utilisateur WHERE (userTag='$username' OR userEmail='$username') AND userPassword='$pass'";
         $result = mysqli_query($bdd, $sql);
 
         if (mysqli_num_rows($result) === 1) {
 
             $row = mysqli_fetch_assoc($result);
 
-            if ($row['userTag'] === $username && $row['userPassword'] === $pass) {
+            if (($row['userTag'] === $username || $row['userEmail'] === $username) && $row['userPassword'] === $pass) {
 
                 echo "Logged in!";
                 $_SESSION['id'] = $row['userId'];

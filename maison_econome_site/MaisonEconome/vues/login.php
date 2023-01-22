@@ -11,8 +11,8 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
             include('models/error.php');
         } ?>
 
-        <label>Nom :</label>
-        <input type="text" name="username" placeholder="Nom" required><br>
+        <label>Identifiant ou adresse email :</label>
+        <input type="text" name="username" placeholder="Identifiant ou adresse email" required><br>
 
         <label>Mot de passe :</label>
         <input type="password" name="password" placeholder="Mot de passe" autocomplete="off" required><br>
