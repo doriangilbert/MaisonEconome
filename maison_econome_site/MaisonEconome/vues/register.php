@@ -12,13 +12,13 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
         } ?>
 
         <label>Nom :</label>
-        <input type="text" name="name" placeholder="Nom" required><br>
+        <input type="text" name="surname" placeholder="Nom" required><br>
 
         <label>Prénom :</label>
-        <input type="text" name="surname" placeholder="Prénom" required><br>
+        <input type="text" name="firstname" placeholder="Prénom" required><br>
 
         <label>Adresse E-mail :</label>
-        <input type="text" name="userEmail" placeholder="Adresse E-mail" autocomplete="off" required><br>
+        <input type="text" name="userEmail" placeholder="Adresse E-mail" autocomplete="off" pattern="[\w-\.]+@([\w-]+\.)+[\w-]{2,4}" required><br>
 
         <label>Date de naissance :</label>
         <input type="date" name="birthDate" placeholder="Date de naissance" required><br>
@@ -44,6 +44,6 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
 
 <?php
 }else{
-    header("Location: index.php?cible=main&fonction=home");
+    header("Location: index.php?cible=main&fonction=welcome");
 }
 ?>

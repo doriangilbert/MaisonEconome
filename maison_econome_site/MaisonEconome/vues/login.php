@@ -25,6 +25,6 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
 </div>
 <?php
 }else{
-    header("Location: index.php?cible=main&fonction=home");
+    header("Location: index.php?cible=main&fonction=welcome");
 }
 ?>

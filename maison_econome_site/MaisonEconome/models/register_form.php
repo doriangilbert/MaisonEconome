@@ -2,8 +2,8 @@
 session_start(); 
 include "connexion.php";
 if (
-    isset($_POST['name']) && 
     isset($_POST['surname']) && 
+    isset($_POST['firstname']) && 
     isset($_POST['birthDate']) && 
     isset($_POST['genre']) && 
     isset($_POST['userPhone']) && 
@@ -37,8 +37,8 @@ if (
 
     }
 
-    $userFirstname = validate_string($_POST['name']);
     $userSurname = validate_string($_POST['surname']);
+    $userFirstname = validate_string($_POST['firstname']);
     $userPhone = validate_string($_POST['userPhone']);
     $userPass = validate_string($_POST['password']);
     $userEmail = validate_string($_POST['userEmail']);
@@ -47,12 +47,12 @@ if (
 
     $userBdate = refactor_date(validate_string($_POST['birthDate']));
 
-    if (empty($userFirstname)) {
+    if (empty($userSurname)) {
 
         header("Location: ../index.php?cible=main&fonction=register&error=Veuillez entrer votre nom.");
         exit();
 
-    }else if(empty($userSurname)){
+    }else if(empty($userFirstname)){
 
         header("Location: ../index.php?cible=main&fonction=register&error=Veuillez entrer votre prénom.");
         exit();
@@ -77,9 +77,14 @@ if (
         header("Location: ../index.php?cible=main&fonction=register&error=Un mot de passe est requis.");
         exit();
 
-    }else{
+    }else if(date('Y') - date("Y", strtotime($userBdate)) < 18 ){
+    
+        header("Location: ../index.php?cible=main&fonction=register&error=Vous devez être majeur pour pouvoir vous inscrire.");
+        exit();
 
-        $username = $userSurname. '.' .$userFirstname;
+    }else
+
+        $username = $userFirstname. '.' .$userSurname;
 
         $sql = "INSERT INTO utilisateur (userDate, userState, userIsAdmin, userFirstname, userSurname, userBirth, userGender, userEmail, userTag, userPhone, userPassword)
                 VALUES (CURRENT_DATE, 1, 0, '$userFirstname', '$userSurname', '$userBdate', '$userGenre', '$userEmail', '$username', '$userPhone', '$userPass')";
@@ -95,50 +100,4 @@ if (
             exit();
         }
     }
-}
 
-
-
-
-
-
-
-
-
-
-           /* $row = mysqli_fetch_assoc($result);
-
-            if ($row['userTag'] === $username && $row['userPassword'] === $pass) {
-
-                echo "Logged in!";
-                $_SESSION['id'] = $row['userId'];
-                $_SESSION['userTag'] = $row['userTag'];
-                $_SESSION['isAdmin'] = $row['userIsAdmin'];
-                $_SESSION['userDate'] = $row['userDate'];
-                $_SESSION['userState'] = $row['userState'];
-                $_SESSION['userFirstname'] = $row['userFirstname'];
-                $_SESSION['userSurname'] = $row['userSurname'];
-                $_SESSION['userBirth'] = $row['userId'];
-                $_SESSION['userGender'] = $row['userGender'];
-                $_SESSION['userEmail'] = $row['userEmail'];
-                $_SESSION['userPhone'] = $row['userPhone'];
-                header("Location: ../index.php?cible=main&fonction=profil");
-                exit();
-
-            }else{
-
-                header("Location: ../index.php?cible=main&fonction=register&error=Mot de passe ou nom d'utilisateur invalide.");
-                exit();
-
-            }
-        }else{
-
-            header("Location: ../index.php?cible=main&fonction=register&error=Mot de passe ou nom d'utilisateur invalide.");
-            exit();
-
-        }
-    }
-}else{
-    header("Location: ../index.php?cible=main&fonction=register");
-    exit();
-}*/

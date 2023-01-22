@@ -11,6 +11,6 @@ if(!isset($_SESSION['id']) && !isset($_SESSION['userTag'])){
 
 <?php
 }else{
-    header("Location: index.php?cible=main&fonction=profil");
+    header("Location: index.php?cible=main&fonction=acceuil");
 }
 ?>

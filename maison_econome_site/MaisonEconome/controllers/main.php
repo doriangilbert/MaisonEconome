@@ -29,9 +29,54 @@ switch ($function) {
         $title = "S'enregistrer";
         break;
 
-    case 'profil':
-        $vue = "profil";
-        $title = "Profil";
+    case 'acceuil':
+        $vue = "acceuil";
+        $title = "Acceuil";
+        break;
+
+    case 'info_profil':
+        $vue = "info_profil";
+        $title = "Information profil";
+        break;
+
+    case 'gestion':
+        $vue = "gestion";
+        $title = "Gestion du site";
+        break;
+
+    case 'gestion_utilisateurs':
+        $vue = "gestion_utilisateurs";
+        $title = "Gestion des utilisateurs";
+        break;
+    
+    case 'gestion_maisons':
+        $vue = "gestion_maisons";
+        $title = "Gestion des maisons";
+        break;
+
+    case 'gestion_ressources':
+        $vue = "gestion_ressources";
+        $title = "Gestion des ressources";
+        break;
+    
+    case 'gestion_substances':
+        $vue = "gestion_substances";
+        $title = "Gestion des substances";
+        break;
+
+    case 'gestion_appartements':
+        $vue = "gestion_appartements";
+        $title = "Gestion des appartements";
+        break;
+    
+    case 'gestion_pieces':
+        $vue = "gestion_pieces";
+        $title = "Gestion des pieces";
+        break;
+    
+    case 'gestion_equipements':
+        $vue = "gestion_equipements";
+        $title = "Gestion des equipements";
         break;
 
     default:

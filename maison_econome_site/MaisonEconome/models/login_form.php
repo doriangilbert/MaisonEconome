@@ -44,11 +44,11 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
                 $_SESSION['userState'] = $row['userState'];
                 $_SESSION['userFirstname'] = $row['userFirstname'];
                 $_SESSION['userSurname'] = $row['userSurname'];
-                $_SESSION['userBirth'] = $row['userId'];
+                $_SESSION['userBirth'] = $row['userBirth'];
                 $_SESSION['userGender'] = $row['userGender'];
                 $_SESSION['userEmail'] = $row['userEmail'];
                 $_SESSION['userPhone'] = $row['userPhone'];
-                header("Location: ../index.php?cible=main&fonction=profil");
+                header("Location: ../index.php?cible=main&fonction=acceuil");
                 exit();
 
             }else{
