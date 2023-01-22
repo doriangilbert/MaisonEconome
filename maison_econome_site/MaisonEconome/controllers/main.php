@@ -79,6 +79,11 @@ switch ($function) {
         $title = "Gestion des equipements";
         break;
 
+    case 'stats':
+        $vue = "stats";
+        $title = "Statistiques";
+        break;
+
     default:
         // si aucune fonction ne correspond au paramètre function passé en GET
         $vue = "error404";
