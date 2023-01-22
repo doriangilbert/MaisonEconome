@@ -1,5 +1,5 @@
 # MaisonEconome
-_Bienvenu sur le repo du site "Maison Econome" !_
+_Bienvenue sur le repo du site "Maison Econome" !_
 
 ![image page de bienvenue](https://github.com/doriangilbert/MaisonEconome/blob/main/readme_src/bienvenu_screen.png?raw=true)
 Ce site a été réalisé dans le cadre d'un projet étudiant ayant pour objectif de concevoir un site web communicant avec une base de données.
@@ -14,7 +14,7 @@ Technologies utilisées :
 
 ---
 
-Pour l'insctalation du site dans wamp, il faut se référer au README dans le dossier `maison_econome_site`.
+Pour l'installation du site dans wamp, il faut se référer au README dans le dossier `maison_econome_site`.
 
 ---
 
