@@ -10,12 +10,12 @@ if(isset($_SESSION['id']) && isset($_SESSION['userTag'])){
     <a class="register" href="index.php?cible=main&fonction=gestion_maisons">Gestion des maisons</a>
     <a class="register" href="index.php?cible=main&fonction=gestion_ressources">Gestion des ressources</a>
     <a class="register" href="index.php?cible=main&fonction=gestion_substances">Gestion des substances</a>
-    <a class="register" href="index.php?cible=main&fonction=profil">Retour au profil</a>
+    <a class="register" href="index.php?cible=main&fonction=accueil">Retour au profil</a>
 </div>
 
 <?php
   }else{
-        header("Location: index.php?cible=main&fonction=profil");
+        header("Location: index.php?cible=main&fonction=accueil");
   }
 }else{
     header("Location: index.php?cible=main&fonction=login");

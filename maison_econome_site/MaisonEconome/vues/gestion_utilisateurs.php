@@ -71,7 +71,7 @@ echo "</table>";
 
 <?php
   }else{
-        header("Location: index.php?cible=main&fonction=profil");
+        header("Location: index.php?cible=main&fonction=accueil");
   }
 }else{
     header("Location: index.php?cible=main&fonction=login");
