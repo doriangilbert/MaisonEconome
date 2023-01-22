@@ -2,8 +2,8 @@
 session_start(); 
 include "connexion.php";
 if (
-    isset($_POST['name']) && 
     isset($_POST['surname']) && 
+    isset($_POST['firstname']) && 
     isset($_POST['birthDate']) && 
     isset($_POST['genre']) && 
     isset($_POST['userPhone']) && 
@@ -37,8 +37,8 @@ if (
 
     }
 
-    $userFirstname = validate_string($_POST['name']);
     $userSurname = validate_string($_POST['surname']);
+    $userFirstname = validate_string($_POST['firstname']);
     $userPhone = validate_string($_POST['userPhone']);
     $userPass = validate_string($_POST['password']);
     $userEmail = validate_string($_POST['userEmail']);
@@ -47,12 +47,12 @@ if (
 
     $userBdate = refactor_date(validate_string($_POST['birthDate']));
 
-    if (empty($userFirstname)) {
+    if (empty($userSurname)) {
 
         header("Location: ../index.php?cible=main&fonction=register&error=Veuillez entrer votre nom.");
         exit();
 
-    }else if(empty($userSurname)){
+    }else if(empty($userFirstname)){
 
         header("Location: ../index.php?cible=main&fonction=register&error=Veuillez entrer votre prénom.");
         exit();
@@ -84,7 +84,7 @@ if (
 
     }else
 
-        $username = $userSurname. '.' .$userFirstname;
+        $username = $userFirstname. '.' .$userSurname;
 
         $sql = "INSERT INTO utilisateur (userDate, userState, userIsAdmin, userFirstname, userSurname, userBirth, userGender, userEmail, userTag, userPhone, userPassword)
                 VALUES (CURRENT_DATE, 1, 0, '$userFirstname', '$userSurname', '$userBdate', '$userGenre', '$userEmail', '$username', '$userPhone', '$userPass')";
